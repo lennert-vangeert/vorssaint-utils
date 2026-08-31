@@ -23,6 +23,7 @@ Vorssaint expands screen text recognition, clipboard, Super key, Dock Preview, A
 - The App Switcher appearance delay can now be adjusted between 0 and 500 ms in Settings. Thanks to @yasinozmeen.
 - The App Switcher can now open on the screen under the pointer, the screen with the menu bar or the screen with the active window. Thanks to @noahjstewart.
 - Text snippets now include a visual date and time variable builder to configure formatting and timezones with live previews. Thanks to @tenbux.
+- Vorssaint is now available in Dutch (Nederlands), with the full interface and permission prompts translated and the language selectable in onboarding and Settings. Thanks to @lennert-vangeert.
 
 ### Changed
 - Smooth scrolling now feels consistent on standard and high-refresh displays, with adjustable speed and response and no lost wheel distance.
