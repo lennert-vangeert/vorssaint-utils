@@ -396,6 +396,7 @@ extension ScreenshotFeatureStrings {
         autoCopyCaption: "Elke opname gaat meteen na het maken naar het klembord, klaar om te plakken. Een bestand bewaren blijft een aparte keuze.",
         hintLoupe: "Z schakelt het vergrootglas om",
         lastRegionToggle: "Contour van de laatste opname tonen",
+        loupeStartsOnToggle: "Selectie starten met het vergrootglas aan",
         backdropBlurLabel: "Vervaging",
         scrollingCaptureButton: "Scrollopname",
         scrollingCaptureTitle: "Schermafbeelding met scrollen",
