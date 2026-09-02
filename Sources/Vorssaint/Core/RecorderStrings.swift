@@ -403,7 +403,14 @@ extension RecorderFeatureStrings {
         automaticZoomToggle: "Zooms automatisch toevoegen",
         automaticZoomCaption: "Schakel dit uit om nieuwe opnames zonder zooms te starten. Je kunt ze nog steeds toevoegen in de editor.",
         pauseButton: "Opname pauzeren",
-        resumeButton: "Opname hervatten"
+        resumeButton: "Opname hervatten",
+        blurLaneLabel: "Vervaging",
+        addBlurButton: "Een gebied vervagen",
+        blurLaneEmptyHint: "Klik hier om een vervaging toe te voegen",
+        thisBlurLabel: "Deze vervaging",
+        blurPickArea: "Kies het gebied",
+        blurPickAreaHint: "Sleep over wat verborgen moet blijven",
+        blurCaption: "Verborgen zolang het blok op de tijdlijn duurt."
     )
 
     static let ptBR = RecorderFeatureStrings(

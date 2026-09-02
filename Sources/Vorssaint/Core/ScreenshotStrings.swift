@@ -396,7 +396,6 @@ extension ScreenshotFeatureStrings {
         autoCopyCaption: "Elke opname gaat meteen na het maken naar het klembord, klaar om te plakken. Een bestand bewaren blijft een aparte keuze.",
         hintLoupe: "Z schakelt het vergrootglas om",
         lastRegionToggle: "Contour van de laatste opname tonen",
-        loupeStartsOnToggle: "Selectie starten met het vergrootglas aan",
         backdropBlurLabel: "Vervaging",
         scrollingCaptureButton: "Scrollopname",
         scrollingCaptureTitle: "Schermafbeelding met scrollen",
@@ -446,7 +445,8 @@ extension ScreenshotFeatureStrings {
         editClipboardImage: "Afbeelding uit klembord bewerken",
         clipboardImageMissing: "Kopieer eerst een afbeelding",
         screenCaptureTitle: "Schermopname",
-        dragOutHandleLabel: "Slepen en neerzetten"
+        dragOutHandleLabel: "Slepen en neerzetten",
+        loupeStartsOnToggle: "Selectie starten met het vergrootglas aan"
     )
 
     static let ptBR = ScreenshotFeatureStrings(

@@ -594,7 +594,8 @@ struct ClipboardFeatureStrings {
         autoClearOnSleep: "Klembord wissen wanneer de computer in sluimerstand gaat",
         autoClearOnDisplaySleep: "Klembord wissen wanneer het beeldscherm in sluimerstand gaat",
         autoClearOnScreenLock: "Klembord wissen wanneer het scherm wordt vergrendeld",
-        autoClearCaption: "Wist alleen het systeemklembord. Al bewaarde items blijven in de geschiedenis."
+        autoClearCaption: "Wist alleen het systeemklembord. Al bewaarde items blijven in de geschiedenis.",
+        deleteSelectedFormat: "%d verwijderen"
     )
 
     static let ptBR = ClipboardFeatureStrings(

@@ -78,7 +78,11 @@ extension DiskImageInstallerStrings {
         failedTitle: "Installeren mislukt",
         failedBody: "Er is niets gewijzigd. Je kunt de app nog steeds naar Programma's slepen.",
         verificationFailedBody: "Deze Mac kon de app niet verifiëren, dus er is niets geïnstalleerd.",
-        alreadyInstalledBodyFormat: "%@ staat al in Programma's."
+        alreadyInstalledBodyFormat: "%@ staat al in Programma's.",
+        trashDownloadOption: "De download naar de Prullenmand verplaatsen",
+        revealAppOption: "De app in Programma's tonen",
+        installedKeptDownloadBodyFormat: "%@ staat klaar in Programma's. De schijfkopie is uitgeworpen en de download is bewaard.",
+        installingFormat: "%@ installeren…"
     )
 
     static let ptBR = DiskImageInstallerStrings(

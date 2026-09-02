@@ -125,6 +125,8 @@ extension Strings {
         advancedUninstallButton: "Vorssaint volledig deïnstalleren",
         advancedUninstallConfirmTitle: "Vorssaint deïnstalleren?",
         advancedUninstallConfirmBody: "Vorssaint wist zijn toestemmingen, verwijdert zijn voorkeuren en verplaatst zichzelf naar de Prullenmand, en sluit dan af. Dit kan niet ongedaan worden gemaakt vanuit de app, maar het blijft in de Prullenmand tot je die leegt.",
+        advancedUninstallFailedTitle: "Deïnstalleren gestopt",
+        advancedUninstallFailedBody: "Vorssaint kon een gewijzigde systeeminstelling niet herstellen: sluimerstand, ventilatorsnelheid of muisversnelling. Er is niets verwijderd. Probeer het opnieuw en sta het wachtwoordverzoek toe als dat verschijnt.",
 
         launchAtLogin: "Openen bij aanmelden",
         languageLabel: "Taal",
@@ -208,6 +210,8 @@ extension Strings {
         switcherShortcutHintApps: "Apps",
         switcherShortcutHintWindows: "Vensters",
         switcherWindowShortcutCaption: "Opent een omschakelaar voor de vensters van de voorste app. Terwijl de app-omschakelaar open is, springt dit tussen de vensters van de geselecteerde app.",
+        switcherTakeOverSystemShortcuts: "macOS ⌘Tab en ⌘` vervangen",
+        switcherTakeOverSystemShortcutsCaption: "Schakelt de bijbehorende macOS-app- en venstersneltoetsen alleen uit terwijl de omschakelaar van Vorssaint actief is. Alle actieve apps blijven bereikbaar.",
         switcherAppearanceDelay: "Verschijningsvertraging",
         switcherAppearanceDelayCaption: "Hoe lang de sneltoets ingedrukt moet blijven voordat de omschakelaar verschijnt.",
         switcherMergeTabs: "Toon één item per app",
