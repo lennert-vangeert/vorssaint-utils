@@ -379,6 +379,7 @@ extension RecorderFeatureStrings {
         shapeVertical: "Hoog",
         noPointerNote: "Deze opname heeft geen aanwijzerspoor, dus er is niets om vloeiend te maken. Handmatig geplaatste zooms werken nog steeds.",
         zoomLaneEmptyHint: "Klik hier om een zoom toe te voegen",
+        addZoomButton: "Zoom toevoegen",
         removeZoom: "Verwijder",
         thisZoomLabel: "Deze zoom",
         zoomWhereLabel: "Waar hij naar kijkt",
@@ -430,7 +431,15 @@ extension RecorderFeatureStrings {
         thisBlurLabel: "Deze vervaging",
         blurPickArea: "Kies het gebied",
         blurPickAreaHint: "Sleep over wat verborgen moet blijven",
-        blurCaption: "Verborgen zolang het blok op de tijdlijn duurt."
+        blurCaption: "Verborgen zolang het blok op de tijdlijn duurt.",
+        addImageButton: "Afbeelding toevoegen",
+        imageLaneLabel: "Afbeelding",
+        imageLaneEmptyHint: "Klik hier om een afbeelding toe te voegen",
+        thisImageLabel: "Deze afbeelding",
+        imageSizeLabel: "Grootte",
+        imageOpacityLabel: "Dekking",
+        imagePositionLabel: "Positie",
+        imageImportFailed: "Kan deze afbeelding niet toevoegen."
     )
 
     static let ptBR = RecorderFeatureStrings(

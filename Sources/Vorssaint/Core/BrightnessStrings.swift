@@ -111,12 +111,25 @@ extension BrightnessFeatureStrings {
         lastDisplayCaption: "Er moet minstens één beeldscherm aan blijven.",
         switchUnavailable: "Beeldscherm aan/uit schakelen is niet beschikbaar op deze Mac.",
         switchFailed: "Kon dit beeldscherm niet wijzigen.",
+        openLidToEnable: "Open het deksel om het ingebouwde beeldscherm in te schakelen.",
         keysToggle: "Helderheidstoetsen volgen de aanwijzer",
         keysCaption: "De helderheidstoetsen op het toetsenbord passen het beeldscherm onder de aanwijzer aan.",
         osdToggle: "Toon helderheid tijdens aanpassen",
         osdCaption: "Toont het helderheidspercentage wanneer je de helderheidstoetsen of schuifregelaars gebruikt.",
+        displayBrightnessShortcuts: "Sneltoetsen voor beeldschermhelderheid gebruiken",
+        displayBrightnessShortcutCaption: "Sneltoetsen passen het hoofdbeeldscherm aan, of het beeldscherm onder de aanwijzer als het volgen van de aanwijzer aan staat.",
+        displayBrightnessDecrease: "Beeldschermhelderheid verlagen",
+        displayBrightnessIncrease: "Beeldschermhelderheid verhogen",
         keyboardLight: "Toetsenbordverlichting",
-        keyboardLightCaption: "Schakelt de toetsenbordverlichting in of uit."
+        keyboardLightCaption: "Schakelt de toetsenbordverlichting in of uit.",
+        keyboardBrightnessShortcuts: "Sneltoetsen voor toetsenbordhelderheid gebruiken",
+        keyboardBrightnessDecrease: "Toetsenbordhelderheid verlagen",
+        keyboardBrightnessIncrease: "Toetsenbordhelderheid verhogen",
+        softwareDimming: "Beeld dimmen",
+        extendedDimming: "Extra dimmen",
+        islandPromptTitle: "Helderheid tonen in het Dynamic Island?",
+        islandPromptMessage: "Het Dynamic Island toont helderheidswijzigingen alleen als “Beeldschermen bedienen” aan staat in de instellingen van Beeldschermen.",
+        islandPromptKeepOff: "Uit laten"
     )
 
     static let ptBR = BrightnessFeatureStrings(

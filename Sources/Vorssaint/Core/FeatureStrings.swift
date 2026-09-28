@@ -367,7 +367,7 @@ struct SettingsCategoryStrings {
         essentials: "Basisfuncties",
         windowsControls: "Vensters en bediening",
         files: "Bestanden",
-        utilities: "Hulpprogramma's",
+        utilities: "Hulpprogramma’s",
         app: "App",
         appManagement: "App-beheer"
     )
@@ -656,7 +656,11 @@ struct ClipboardFeatureStrings {
         autoClearOnDisplaySleep: "Klembord wissen wanneer het beeldscherm in sluimerstand gaat",
         autoClearOnScreenLock: "Klembord wissen wanneer het scherm wordt vergrendeld",
         autoClearCaption: "Wist alleen het systeemklembord. Al bewaarde items blijven in de geschiedenis.",
-        deleteSelectedFormat: "%d verwijderen"
+        deleteSelectedFormat: "%d verwijderen",
+        menuBarPreview: "Laatste kopie tonen in de menubalk",
+        menuBarPreviewCaption: "Toont een ingekorte voorvertoning van je laatste kopie naast het symbool. Klik erop om de geschiedenis te openen.",
+        menuBarPreviewLength: "Lengte voorvertoning",
+        menuBarPreviewLengthSuffix: "tekens"
     )
 
     static let ptBR = ClipboardFeatureStrings(
@@ -1593,6 +1597,8 @@ struct WindowLayoutFeatureStrings {
         target: "Actief venster",
         halves: "Helften",
         thirds: "Derde delen",
+        quarterRows: "Kwartrijen",
+        quarterColumns: "Kwartkolommen",
         sixths: "Zesde delen",
         corners: "Hoeken",
         other: "Acties",
@@ -1600,11 +1606,26 @@ struct WindowLayoutFeatureStrings {
         rightHalf: "Rechts",
         topHalf: "Boven",
         bottomHalf: "Onder",
+        centerHalf: "Middelste helft",
         leftThird: "Links 1/3",
         centerThird: "Midden 1/3",
         rightThird: "Rechts 1/3",
         leftTwoThirds: "Links 2/3",
         rightTwoThirds: "Rechts 2/3",
+        centerTwoThirds: "Midden 2/3",
+        topThird: "Boven 1/3",
+        middleThird: "Midden 1/3",
+        bottomThird: "Onder 1/3",
+        topTwoThirds: "Boven 2/3",
+        bottomTwoThirds: "Onder 2/3",
+        topQuarter: "Boven 1/4",
+        upperMiddleQuarter: "Midden boven 1/4",
+        lowerMiddleQuarter: "Midden onder 1/4",
+        bottomQuarter: "Onder 1/4",
+        leftQuarter: "Links 1/4",
+        leftMiddleQuarter: "Midden links 1/4",
+        rightMiddleQuarter: "Midden rechts 1/4",
+        rightQuarter: "Rechts 1/4",
         topLeftSixth: "Linksboven 1/6",
         topCenterSixth: "Boven midden 1/6",
         topRightSixth: "Rechtsboven 1/6",
@@ -1622,7 +1643,7 @@ struct WindowLayoutFeatureStrings {
         fullScreen: "Volledig scherm",
         previousDisplay: "Vorig beeldscherm",
         edgeSnapEnable: "Vensters vastklikken aan schermranden",
-        edgeSnapCaption: "Schakel dit in en sleep vervolgens een titelbalk van een venster naar een schermrand of -hoek en laat los.",
+        edgeSnapCaption: "Schakel dit in, kies hieronder de gemarkeerde gebieden en sleep dan de titelbalk van een venster naar een ervan en laat los.",
         edgeSnapSystemConflict: "macOS gebruikt dezelfde randen. Zet het naast elkaar plaatsen van vensters uit bij Bureaublad en Dock, zodat Vorssaint het kan overnemen.",
         edgeSnapOpenSystemSettings: "Bureaublad en Dock openen",
         edgeSnapWaitingForSystem: "Ingeschakeld in Vorssaint. Het begint te werken zodra het naast elkaar plaatsen van vensters in macOS uit staat.",
@@ -1631,6 +1652,8 @@ struct WindowLayoutFeatureStrings {
         gapsCaption: "Ruimte tussen vastgeklikte vensters, en tussen vensters en de schermrand.",
         windowGap: "Vensterafstand",
         screenGap: "Schermafstand",
+        sideRepeatCycle: "Links of Rechts herhalen wisselt het formaat",
+        sideRepeatCycleCaption: "Helft, dan twee derde, dan een derde op hetzelfde beeldscherm. Staat dit uit en heb je meer dan één beeldscherm, dan verplaatst herhalen het venster naar het volgende beeldscherm aan die kant.",
         gapNone: "Geen",
         gapTiny: "Piepklein",
         gapSmall: "Klein",
@@ -2799,7 +2822,7 @@ struct MonitorAlertFeatureStrings {
         cpuTitle: "Hoog CPU-gebruik",
         cpuBodyFormat: "CPU bleef enkele seconden boven %d%%.",
         cpuTemperatureTitle: "Hete CPU",
-        cpuTemperatureBodyFormat: "CPU bereikte %d °C.",
+        cpuTemperatureBodyFormat: "CPU bereikte %@.",
         memoryTitle: "Kritiek geheugen",
         memoryBody: "Geheugendruk bereikte het kritieke niveau.",
         diskTitle: "Weinig schijfruimte",
@@ -2809,7 +2832,7 @@ struct MonitorAlertFeatureStrings {
         batteryTemperature: "Hoge batterijtemperatuur",
         batteryTemperatureThreshold: "Temperatuur boven",
         batteryTemperatureTitle: "Hete batterij",
-        batteryTemperatureBodyFormat: "Batterij bereikte %d °C."
+        batteryTemperatureBodyFormat: "Batterij bereikte %@."
     )
 
     static let ptBR = MonitorAlertFeatureStrings(

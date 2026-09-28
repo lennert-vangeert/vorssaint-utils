@@ -161,7 +161,8 @@ extension FanControlFeatureStrings {
         averageCPU: "Gemiddelde CPU",
         hottestCPU: "Heetste CPU",
         hottestGPU: "Heetste GPU",
-        helperUnavailable: "De beveiligde ventilatorregelaar is niet beschikbaar. Sta Vorssaint toe bij Items voor aanmelding en probeer het opnieuw."
+        helperUnavailable: "De beveiligde ventilatorregelaar is niet beschikbaar. Sta Vorssaint toe bij Items voor aanmelding en probeer het opnieuw.",
+        resumeAfterRestart: "Hervatten na herstart of sluimerstand"
     )
 
     static let ptBR = FanControlFeatureStrings(

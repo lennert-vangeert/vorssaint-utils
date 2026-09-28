@@ -131,6 +131,9 @@ extension ScratchpadFeatureStrings {
         copyAll: "Alles kopiëren",
         copied: "Gekopieerd",
         exportAction: "Bewaren als bestand",
+        exportFailed: "Het bestand kon niet worden bewaard",
+        loadFailed: "Je notities konden niet worden geopend. Ze zijn ongewijzigd gebleven.",
+        saveFailed: "Je notities konden niet worden bewaard. Kopieer ze ergens anders naartoe voordat je stopt.",
         clearAction: "Wissen",
         retentionTitle: "Zelf wissen",
         retentionNever: "Nooit",
@@ -152,7 +155,18 @@ extension ScratchpadFeatureStrings {
         deletePadMessageFormat: "“%@” en alles erin verwijderen?",
         padLimitFormat: "Je kunt tot %d kladblokken bewaren",
         previewFormatting: "Opmaak tonen",
-        editText: "Tekst bewerken"
+        editText: "Tekst bewerken",
+        markBold: "Vet",
+        markItalic: "Cursief",
+        markStrikethrough: "Doorgehaald",
+        markHeading: "Kop",
+        markBullet: "Lijst met opsommingstekens",
+        markNumbered: "Genummerde lijst",
+        markQuote: "Citaat",
+        markCode: "Code",
+        markLink: "Link",
+        formatMarks: "Opmaak",
+        textSize: "Tekstgrootte"
     )
 
     static let ptBR = ScratchpadFeatureStrings(

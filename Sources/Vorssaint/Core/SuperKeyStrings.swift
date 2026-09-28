@@ -110,7 +110,8 @@ extension SuperKeyStrings {
         manageButton: "Instellen…",
         soloInputSource: "Invoerbron wisselen; ingedrukt houden voor Caps Lock",
         mappingForeignMapping: "De toetstoewijzing van een andere app gebruikt de geselecteerde toets. Verwijder deze in die app: afsluiten is niet genoeg.",
-        mappingSystemRefused: "macOS heeft de toetstoewijzing geweigerd. Sluit het toetsenbord opnieuw aan of start de Mac opnieuw op, en schakel dit daarna weer in."
+        mappingSystemRefused: "macOS heeft de toetstoewijzing geweigerd. Sluit het toetsenbord opnieuw aan of start de Mac opnieuw op, en schakel dit daarna weer in.",
+        keyboardTapRefused: "macOS liet Vorssaint het toetsenbord niet volgen. Zet Vorssaint uit en weer aan in Systeeminstellingen › Privacy en beveiliging › Toegankelijkheid, en schakel dit daarna weer in."
     )
 
     static let ptBR = SuperKeyStrings(

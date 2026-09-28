@@ -334,7 +334,7 @@ extension SnippetFeatureStrings {
         libraryCaption: "De sneltoets opent een doorzoekbaar menu. Als je een fragment kiest, wordt het meteen getypt waar je cursor staat.",
         librarySearchPlaceholder: "Fragmenten zoeken",
         libraryNoResults: "Geen fragment komt overeen met de zoekopdracht.",
-        libraryEmpty: "Nog niets om te tonen. Voeg fragmenten toe, of schakel 'Toon in het snelmenu' in voor de fragmenten die je het vaakst gebruikt.",
+        libraryEmpty: "Nog niets om te tonen. Voeg fragmenten toe, of schakel “Toon in het snelmenu” in voor de fragmenten die je het vaakst gebruikt.",
         libraryFooterHint: "↩ voegt in · esc sluit",
         folderLabel: "Map",
         folderPlaceholder: "Werk",
@@ -364,7 +364,11 @@ extension SnippetFeatureStrings {
         dateTimePatternLabel: "Patroon",
         dateTimePreviewLabel: "Voorvertoning",
         dateTimeConfirmInsert: "Invoegen",
-        dateTimeConfirmUpdate: "Bijwerken"
+        dateTimeConfirmUpdate: "Bijwerken",
+        soundToggle: "Geluid afspelen als een getypte trigger wordt uitgebreid",
+        soundCaption: "Er klinkt een kort systeemgeluid telkens als een getypte trigger wordt uitgebreid.",
+        soundPickerLabel: "Geluid",
+        soundUnavailable: "Geluid niet beschikbaar"
     )
 
     static let ptBR = SnippetFeatureStrings(

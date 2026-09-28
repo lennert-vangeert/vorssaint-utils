@@ -131,7 +131,9 @@ extension MouseButtonFeatureStrings {
         spacesShortcutsOffNote: "De toetsenbordsneltoetsen van Mission Control staan uit in Systeeminstellingen, dus dit gebaar heeft niets om aan te vragen.",
         spacesCaptureWaiting: "Druk nu op een extra knop.",
         spacesCaptureUnsupported: "Die invoer kan niet worden vastgehouden om te slepen. Gebruik een extra knop.",
-        spacesCaptureExists: "Die knop heeft al een sneltoets. Kies een andere."
+        spacesCaptureExists: "Die knop heeft al een sneltoets. Kies een andere.",
+        spacesFollowsDragLabel: "Spaces volgen het slepen",
+        spacesFollowsDragCaption: "Naar rechts slepen haalt de Space aan de linkerkant erbij, zoals een veegbeweging op het trackpad hem met je vingers meeneemt."
     )
 
     static let ptBR = MouseButtonFeatureStrings(

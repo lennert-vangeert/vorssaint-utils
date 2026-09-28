@@ -200,7 +200,18 @@ extension KeepAwakeAutomationStrings {
         externalDisplayActive: "Actief zolang een extern beeldscherm is aangesloten",
         powerToggle: "Netstroom",
         powerActive: "Actief zolang aangesloten op netstroom",
-        automationActive: "Actief omdat aan een automatische voorwaarde is voldaan"
+        runningAppsToggle: "Apps",
+        runningAppsActive: "Actief zolang een geselecteerde app draait",
+        runningAppsListTitle: "Geselecteerde apps",
+        runningAppsAddButton: "App toevoegen…",
+        runningAppsRemoveButton: "Verwijderen",
+        runningAppsListCaption: "Wakker houden start zolang een van deze apps open is, ook op de achtergrond.",
+        automationActive: "Actief omdat aan een automatische voorwaarde is voldaan",
+        pauseWhenLockedToggle: "Pauzeren zolang de Mac vergrendeld is",
+        pauseWhenLockedCaption: "Volgt de normale sluimerregels zolang de Mac vergrendeld is en hervat de resterende sessie nadat je ontgrendelt.",
+        matchAny: "Een",
+        matchAll: "Alle",
+        automationCaptionAll: "Start alleen als alle geselecteerde voorwaarden actief zijn."
     )
 
     static let ptBR = KeepAwakeAutomationStrings(

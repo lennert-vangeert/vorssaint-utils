@@ -193,6 +193,7 @@ extension MediaImageConverterStrings {
         backgroundWhite: "Wit",
         backgroundBlack: "Zwart",
         preserveDate: "Oorspronkelijke wijzigingsdatum behouden",
+        saveInSubfolder: "Bewaren in submap “Converted”",
         moreOptions: "Meer opties",
         tooLarge: "Deze afmetingen zijn te groot om veilig te verwerken. Kies een kleiner formaat.",
         copySummary: "Samenvatting kopiëren",

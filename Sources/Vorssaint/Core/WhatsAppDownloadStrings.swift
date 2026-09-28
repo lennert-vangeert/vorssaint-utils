@@ -123,7 +123,7 @@ extension WhatsAppDownloadStrings {
         fileTypes: "Bestandstypen",
         allTypes: "Alle",
         image: "Afbeeldingen",
-        video: "Video's",
+        video: "Video’s",
         audio: "Audio en spraakberichten",
         document: "Documenten",
         archive: "Archieven",

@@ -301,9 +301,9 @@ extension RadialMenuFeatureStrings {
         profileMouseTriggerLabel: "Muisknop",
         presetGeneral: "Algemeen",
         presetMedia: "Media",
-        presetTools: "Hulpprogramma's",
+        presetTools: "Hulpprogramma’s",
         presetWindowLayout: "Vensterindeling",
-        presetQuickToggles: "Snelle schakelaars",
+        presetQuickToggles: "Snelle toggles",
         presetBlank: "Leeg",
         colorAccent: "Accentkleur",
         colorBlue: "Blauw",
@@ -321,7 +321,16 @@ extension RadialMenuFeatureStrings {
         fetchFaviconDisclaimer: "Maakt eenmalig verbinding met de website om het symbool te downloaden. Lokaal bewaard.",
         fetchFaviconLoading: "Symbool ophalen…",
         fetchFaviconSuccess: "Symbool gedownload",
-        fetchFaviconError: "Kon geen websitesymbool vinden"
+        fetchFaviconError: "Kon geen websitesymbool vinden",
+        mouseTriggerRequirement: "Alleen extra muisknoppen werken hier. Gebruik bij een muis zonder extra knoppen de toetscombinatie hierboven. Met een trackpad kun je ook de tik met vier vingers hieronder gebruiken.",
+        canvasHint: "Klik op een knop om te kiezen wat hij start, of om hem te verwijderen. Sleep een knop om hem te verplaatsen.",
+        resetActionsButton: "Herstel",
+        resetActionsConfirm: "Acties herstellen",
+        resetActionsConfirmMessage: "Standaardacties voor dit profiel herstellen? Eigen acties worden vervangen.",
+        showListButton: "Toon als lijst",
+        hideListButton: "Verberg lijst",
+        trackpadTapLabel: "Openen met een tik met vier vingers",
+        trackpadTapConflict: "De middelste klik gebruikt de tik met vier vingers al, dus de tik opent dit wiel niet."
     )
 
     static let ptBR = RadialMenuFeatureStrings(
