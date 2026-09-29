@@ -247,6 +247,7 @@ extension Strings {
         dockPreviewCurrentSpaceOnlyCaption: "Als dit uit staat, worden vensters van alle bureaubladen getoond. Kies je een venster op een ander bureaublad, dan ga je daarheen.",
         dockPreviewBackgroundOpacity: "Achtergrond van paneel",
         dockPreviewBackgroundOpacityCaption: "Verlaag dit om meer te zien van wat achter het paneel zit.",
+        dockPreviewBackgroundOpacityGlassCaption: "Liquid Glass staat aan, dus de transparantie van het paneel stel je in via Systeeminstellingen > Weergave.",
         dockPreviewOpenDelay: "Openingsvertraging",
         dockPreviewOpenDelayCaption: "Hoe lang de wijzer op een symbool moet blijven staan voordat het paneel opent.",
         dockPreviewQuitAppOnClose: "App afsluiten met de ×-knop",
@@ -1082,6 +1083,8 @@ extension Strings {
         linearScrollCaption: "Elke stap van het muiswiel scrolt dezelfde afstand, hoe snel je het ook draait. Het trackpad blijft ongewijzigd.",
         linearScrollLinesLabel: "Regels per stap",
         shelfClearOnClose: "Legen bij sluiten",
-        shelfClearOnCloseCaption: "Leegt de Shelf alleen wanneer je op de sluitknop klikt. Automatisch verbergen en inklappen behouden de items."
+        shelfClearOnCloseCaption: "Leegt de Shelf alleen wanneer je op de sluitknop klikt. Automatisch verbergen en inklappen behouden de items.",
+        shelfShortcutFinderSelection: "De Finder-selectie toevoegen met de sneltoets",
+        shelfShortcutFinderSelectionCaption: "Met de Finder op de voorgrond opent de sneltoets de Shelf met de geselecteerde bestanden er al in. Zonder selectie opent hij zoals gewoonlijk."
     )
 }
